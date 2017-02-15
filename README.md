@@ -3,6 +3,10 @@ Guidle
 
 [Guidle](http://www.guidle.com) client library. Require >= 5.3.
 
+[![Build Status](https://travis-ci.org/maidmaid/guidle.svg?branch=master)](https://travis-ci.org/maidmaid/guidle)
+[![Latest Stable Version](https://poser.pugx.org/maidmaid/guidle/v/stable)](https://packagist.org/packages/maidmaid/guidle)
+[![License](https://poser.pugx.org/maidmaid/guidle/license)](https://packagist.org/packages/maidmaid/guidle)
+
 ## Installation
 
 ```
