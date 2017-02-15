@@ -3,9 +3,8 @@
 namespace Maidmaid\Guilde\Guidle;
 
 use Maidmaid\Guidle\Guidle;
-use PHPUnit\Framework\TestCase;
 
-class GuidleTest extends TestCase
+class GuidleTest extends PHPUnit_Framework_TestCase
 {
     public function testConstructor()
     {
