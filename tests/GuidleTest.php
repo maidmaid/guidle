@@ -8,6 +8,6 @@ class GuidleTest extends PHPUnit_Framework_TestCase
 {
     public function testConstructor()
     {
-        $guidle = $this->getMockBuilder(Guidle::class)->disableOriginalConstructor();
+        $guidle = new Guidle('http://www.guidle.com/fr');
     }
 }
