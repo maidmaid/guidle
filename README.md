@@ -34,6 +34,6 @@ foreach ($guidle->getOffers() as $o) {
 }
 ```
 
-## Licence
+## License
 
 Guidle client library is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
