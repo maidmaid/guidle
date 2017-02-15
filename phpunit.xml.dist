@@ -6,22 +6,23 @@
          colors="true"
          bootstrap="vendor/autoload.php"
 >
-<php>
-    <ini name="error_reporting" value="-1" />
-</php>
+    <php>
+        <ini name="error_reporting" value="-1" />
+    </php>
 
-<testsuites>
-    <testsuite name="Guidle Test Suite">
-        <directory>./tests/</directory>
-    </testsuite>
-</testsuites>
+    <testsuites>
+        <testsuite name="Guidle Test Suite">
+            <directory>./tests/</directory>
+        </testsuite>
+    </testsuites>
 
-<filter>
-    <whitelist>
-        <directory>./</directory>
-        <exclude>
-            <directory>./tests</directory>
-            <directory>./vendor</directory>
-        </exclude>
-    </whitelist>
-</filter>
+    <filter>
+        <whitelist>
+            <directory>./</directory>
+            <exclude>
+                <directory>./tests</directory>
+                <directory>./vendor</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>
