@@ -1,0 +1,13 @@
+{
+    "name": "maidmaid/guidle",
+    "description": "Guidle client library",
+    "authors": [
+        {
+            "name": "Dany Maillard",
+            "email": "danymaillard93b@gmail.com"
+        }
+    ],
+	"autoload": {
+        "psr-4": { "Maidmaid\\Guidle\\": "src/" }
+    }
+}
